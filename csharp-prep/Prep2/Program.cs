@@ -31,7 +31,30 @@ class Program
             letter = "F";
         }
 
-        Console.WriteLine($"Your grade is {letter}");
+        string sign = "";
+        int gradeRemainder = grade % 10;
+
+        if(gradeRemainder >= 7)
+        {
+           sign = "+";
+        }
+        else if(gradeRemainder < 3)
+        {
+            sign = "-";
+        }
+
+        string letterSign = letter + sign;
+
+        if(letterSign == "A+")
+        {
+            letterSign = "A";
+        }
+        else if(letterSign == "F+" || letterSign == "F-")
+        {
+            letterSign = "F";
+        }
+
+        Console.WriteLine($"Your grade is {letterSign}");
 
         if(grade >= 70){
             Console.WriteLine("Congratulations! You passed the class!");
