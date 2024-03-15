@@ -28,7 +28,6 @@ class Program
                 // This will clear the console
                 Console.Clear();
             }
-        
 
             if(scripture.IsCompletelyHidden())
             {
@@ -39,11 +38,7 @@ class Program
                 Console.WriteLine("Press enter to continue or type 'quit' to finish:");
             
             }
-
-        
         }
-    
-
     }
 
     static List<Scripture> LoadFromFile(string file)
@@ -81,8 +76,5 @@ class Program
         Scripture scripture = scriptures[rnd.Next(0, scriptures.Count)];
         return scripture;
     }
-
-
-
 
 }   

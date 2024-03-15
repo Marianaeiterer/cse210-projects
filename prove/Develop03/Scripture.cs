@@ -17,12 +17,10 @@ public class Scripture
            }
             
         }
-
     }
 
     public void HideRandomWords(int numberToHide)
     {
-    
         var rnd = new Random(); 
         bool hide = true;
         while(hide)
@@ -39,7 +37,6 @@ public class Scripture
         }
 
     }
-
     public bool IsCompletelyHidden()
     {
         int count = 0;
@@ -57,7 +54,6 @@ public class Scripture
         }
         return false;
     }
-
     public string GetDisplayText()
     {
         string scripture = _reference.GetDisplayText();
