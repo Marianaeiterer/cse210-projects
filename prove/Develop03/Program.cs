@@ -1,5 +1,5 @@
 using System;
-
+//Program loads scriptures from a file and choose a random scripture from the list
 class Program
 {
     static void Main(string[] args)
