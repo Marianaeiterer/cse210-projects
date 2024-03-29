@@ -1,0 +1,5 @@
+100
+SimpleGoal:Give a talk/-/Speak at the sacrament meeting/-/50/-/True
+EternalGoal:Study scriptures/-/Study for 10 minutes/-/50
+CheckListGoal:Attend the temple/-/Attend and perform ordinances/-/50/-/500/-/3/-/1
+BadHabit:Excessive screen time/-/I spend too much time on phone/-/50/-/500/-/5/-/1
